@@ -1,0 +1,83 @@
+<!-- Text Input
+	 Password Input
+	 Email Input
+	 Radio Buttons
+	 Select Tag
+	 Checkbox Input -->
+
+	 <!-- First Name, Last Name, Email = Required -->
+	 <!-- Email = Must be valid address -->
+	 <!-- *RESEARCH* Password = between 5 an 10 caracters (just HTML5, no JS allowed) -->
+	 <!-- 3 drop down for month, day and year -->
+
+	 <!DOCTYPE html>
+	 <html>
+	 <head>
+	 	<title>Forms exercise</title>
+	 </head>
+	 <body>
+
+	 	<h1>Register</h1>
+
+	 	<form>
+	 		<label for="firstname">First Name:</label>
+	 		<input id="firstname" type="text" placeholder="Your first name" required>
+
+	 		<label for="lastname">Last Name:</label>
+	 		<input id="lastname" type="text" placeholder="Your last name" required>
+
+	 		<div>
+	 			<label>Male</label>
+	 			<input type="radio" name="gender" value="MALE">
+
+	 			<label>Female</label>
+	 			<input type="radio" name="gender" value="FEMALE">
+
+	 			<label>Other</label>
+	 			<input type="radio" name="gender" value="OTHER">
+	 		</div>
+
+	 		<div>
+	 			<label>
+	 				Email:
+	 				<input name="email" type="email" placeholder="Your email" required>
+	 			</label>
+
+	 			<label>
+	 				Password:
+	 				<input name="password" type="password" placeholder="Your password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
+	 			</label>
+	 		</div>
+	 		
+	 		<fieldset>
+	 			<legend>Birthday:</legend>
+	 			<label for="month">Month:</label>
+	 			<select id="month" name="month">
+	 				<option value="January">January</option>
+	 				<option value="February">February</option>
+	 				<option value="March">March</option>
+	 			</select>
+	 			<label for="day">Day</label>
+	 			<select id="day" name="day">
+	 				<option value="01">01</option>
+	 				<option value="02">02</option>
+	 				<option value="03">03</option>
+	 			</select>
+	 			<label for="year">Year</label>
+	 			<select id="year" name="year">
+	 				<option value="2002">2002</option>
+	 				<option value="2001">2001</option>
+	 				<option value="2000">2000</option>
+	 			</select>
+	 		</fieldset>
+
+	 		<div>
+	 			<label for="term">I agree to the terms and  conditions</label>
+	 			<input id="term" type="checkbox">
+	 		</div>
+
+	 		<button>Submit</button>
+	 	</form>
+
+	 </body>
+	 </html>

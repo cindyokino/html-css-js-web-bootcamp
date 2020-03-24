@@ -1,0 +1,48 @@
+/*body {
+	background: orange;
+}*/
+
+/*ELEMENT selector: (eg.: select all the LI's) */
+li {
+	border: 1px solid red;
+}
+
+/*ID selector: (each ID can appear just 1 time)
+*/#special{
+	background: yellow;
+}
+
+/*CLASS selector: (like ID selector,  but the CLASS can appear more than 1 time)
+*/.completed {
+	text-decoration: line-through;
+}
+
+/*
+STAR selector (change everything, ever single element on the page)
+*{
+	border: 1px solid lightgrey;
+}
+
+DESCENDENT selector (uses 2 or more tag names/selectors and chain them together)
+li a {
+	color: red;
+}
+
+ADJECENT selector (eg.: select all the UL's that came after an H4)
+h4 + ul {
+	border: 4px solid red;
+}
+
+ATTRIBUTE selector (It's a way to select elements based oss any attribute)
+a[href="http://www.google.com"] {
+	background: blue;
+}
+	or
+input[type="checkbox"] {
+	background: blue;
+}
+
+NTH OF TYPE selector
+ul: nth-of-type(3){
+	background: purple;
+}*/
