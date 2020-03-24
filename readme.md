@@ -1,5 +1,7 @@
 Check my working example at the link below:
+
 https://cindyokino.github.io/html-css-js-web-bootcamp/my-activities.html
+
 
 
 Learned technologies throughout the course:
